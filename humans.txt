@@ -1,0 +1,25 @@
+/* TEAM */
+Main Web Designer and person, responsible for the website creation:
+Peter Petrov
+Email: peter@game-craft.com
+Location: Sofia, Bulgaria.
+
+Radoslav Georgiev
+Email: radoslav@game-craft.com
+Location: Sofia, Bulgaria.
+Twitter: @Rado_g
+Website: http://rado-dev.com/
+
+Vitaliy Filipov
+Email : vitaliy@game-craft.com
+Location: Sofia, Bulgaria.
+Twitter: @Game__Design 
+/* THANKS */
+
+							
+Name: name or url
+/* SITE */
+It does not support IE 6 and IE7 !
+Last update(DD/MM/YYYY): 28.12.2011 
+Standards: HTML5
+Components: HTML5 Shiv
