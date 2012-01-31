@@ -14,6 +14,12 @@
 	<fileset dir="./styles" id="styles">
 		<include name="**.css" />
 	</fileset>
+	<fileset dir="./templates" id="templates">
+		<include name="**.tpl" />
+	</fileset>
+	<fileset dir="./smarty" id="smarty">
+		<include name="**" />
+	</fileset>
 	<!-- ============================================  -->
 	<!-- Target: prepare                               -->
 	<!-- ============================================  -->
@@ -41,11 +47,15 @@
 		<copy todir="./${builddir}/styles/">
 			<fileset refid="styles" />
 		</copy>
+		<copy todir="./${builddir}/templates">
+			<fileset refid="templates" />
+		</copy>
+		<copy todir="./${builddir}/smarty">
+			<fileset refid="smarty" />
+		</copy>
 		<echo msg="Copying all the files from the . directoty" />
 		<echo msg="Copying index.html" />
-		<copy file="./index.html" tofile="./${builddir}/index.html" />
-		<echo msg="Copying about.html" />
-		<copy file="./about.html" tofile="./${builddir}/about.html" />
+		<copy file="./index.php" tofile="./${builddir}/index.php" />
 		<echo msg="Copying humans.txt" />
 		<copy file="./humans.txt" tofile="./${builddir}/humans.txt" />
 	</target>
