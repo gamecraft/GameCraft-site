@@ -27,6 +27,7 @@
 			<header>
 				<div id='header_img'>
 					<img width='1080px' height='315px' src='assets/header2.png' alt="Header immage" />
+					<img width="0px" height="0px" style="visibility:hidden;" alt="Header immage" src="http://game-craft.com/blog/wp-content/uploads/2012/02/BigFluffyOwl.png">
 				</div>
 			</header>
 		</div>
