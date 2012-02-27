@@ -1,4 +1,25 @@
-<!DOCTYPE HTML>
+<?php /* Smarty version Smarty-3.1.8, created on 2012-02-27 19:38:52
+         compiled from "templates\index.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:212324f47a73d67a5d4-95978130%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'f90be83b235fb03cc225b11607032e9ddd415899' => 
+    array (
+      0 => 'templates\\index.tpl',
+      1 => 1330367931,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '212324f47a73d67a5d4-95978130',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4f47a73d7b5689_43232986',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4f47a73d7b5689_43232986')) {function content_4f47a73d7b5689_43232986($_smarty_tpl) {?><!DOCTYPE HTML>
 <html>
 	<head>
 		<link type="text/plain" rel="author" href="http://game-craft.com/humans.txt" />
@@ -97,6 +118,8 @@
 				</div>
 			</footer>
 		</div>
-		{include file="analytics.tpl"}
+		<?php echo $_smarty_tpl->getSubTemplate ("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 	</body>
 </html>
+<?php }} ?>
