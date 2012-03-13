@@ -6,6 +6,10 @@
 		<meta name="description" content="GameCraft is the first Eastern-European Startup (Based in Bulgaria) that provides Gamification as a Service." />
 		<meta name="author" content="Check humans.txt" />
 		<meta charset="utf-8" />
+		<meta property="og:title" content="GameCraft - Gamification as a Service" />
+		<meta property="og:description" content="GameCraft is the first Eastern-European Startup (Based in Bulgaria) that provides Gamification as a Service." />
+		<meta property="og:image" content="assets/logo.png" />
+		<link rel="image_src" href="assets/logo.png" />
 		<link rel="stylesheet" type="text/css" href="styles/main.css" />
 		<link rel="stylesheet" type="text/css" href="styles/reset.css" />
 		<title> GameCraft - Gamification as a Service </title>
@@ -47,43 +51,37 @@
 		</div>
 		<div id='content_wrapper'>
 			<div id='content'>
-				<div id='who_are_we'>
-					<img class = 'sunglasses_owl' width='57' height='92' src='assets/sunglasses_owl.png' alt="GameCraft Owl With Sunglasses" />
-					<h2>Who are we? </h2>
-					We're a Bulgarian startup with a huge background
-					experience in the fields of <b>game theory and design</b>
-					and <b>agile programming</b>.
-					<br>
-					Our team is focused on the
-					business model - gamification as a service while we
-					have a strong partnership with Camplight
-				</div>
-				<div id='our_target'>
-					<img class = 'girl_owl' width='60' height='75' src='assets/girl_owl.png' alt="GameCraft Girl Owl" />
-					<h2>What we do? </h2>
-					We are offering <b>Gamification as a Service</b>.
-					<br/>
-					We create games from real-life activities - like
-					<br/>
-					events, trainings, marketing campaigns, workflows
-					<br/>
-					by making them more <b>engaging and fun</b>.
-					<br/>
-				</div>
-				<div id='gamification'>
-					<img class = 'nerdy_owl' width='62' height='88' src='assets/nerdy_owl.png' alt="GameCraft Nerdy Owl" />
-					<h2>What is Gamification? </h2>
-					Gamification involves applying <b>game design
-					<br/>
-					thinking to non-game applications</b> to make them
-					<br/>
-					more fun and engaging.
-					<br/>
-					Gamification refers to incorporating game elements
-					<br/>
-					and mechanics into non-gaming websites and
-					<br/>
-					software.
+				<div id='left_content'>
+					<div id='who_are_we'>
+						<h2 class='title' title='Who are we?'>Who are we?</h2>
+						<img class = 'sunglasses_owl' width='57' height='92' src='assets/sunglasses_owl.png' alt="GameCraft Owl With Sunglasses" />
+						We're a Bulgarian startup with a huge background experience in the fields
+						of <b>game theory and design</b> and <b>agile programming</b>.
+						<br>
+						Our team is focused on the business model - gamification as a service while we
+						have a strong partnership with Camplight
+					</div>
+					<div id='what_we_do'>
+						<h2 class='title' title='What we do?'>What we do? </h2>
+						<img class = 'girl_owl' width='60' height='75' src='assets/girl_owl.png' alt="GameCraft Girl Owl" />
+						We are offering <b>Gamification as a Service</b>.
+						<br/>
+						We create games from real-life activities - like events, trainings, marketing campaigns, workflows
+						by making them more <b>engaging and fun</b>.
+						<br/>
+					</div>
+					<div id='gamification'>
+						<h2 class='title' title='What is gamification?'>What is gamification? </h2>
+						<img class = 'nerdy_owl' width='62' height='88' src='assets/nerdy_owl.png' alt="GameCraft Nerdy Owl" />
+						<div class='bubble'>
+							<div class="bubble-arrow-border"></div>
+							<div class="bubble-arrow"></div>
+							Gamification involves applying <b>game design thinking to non-game applications</b> to make them
+							more fun and engaging.
+							<br/>
+							Gamification refers to incorporating game elements and mechanics into non-gaming websites and software.
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
