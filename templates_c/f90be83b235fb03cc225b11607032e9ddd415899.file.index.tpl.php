@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-03-13 17:40:03
+<?php /* Smarty version Smarty-3.1.8, created on 2012-03-20 22:24:18
          compiled from "templates\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:212324f47a73d67a5d4-95978130%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f90be83b235fb03cc225b11607032e9ddd415899' => 
     array (
       0 => 'templates\\index.tpl',
-      1 => 1331656802,
+      1 => 1332278657,
       2 => 'file',
     ),
   ),
@@ -74,16 +74,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div id='content'>
 				<div id='left_content'>
 					<div id='who_are_we'>
-						<h2 class='title' title='Who are we?'>Who are we?</h2>
+						<h2 class='title' title='WHO ARE WE?'>WHO ARE WE?</h2>
 						<img class = 'sunglasses_owl' width='57' height='92' src='assets/sunglasses_owl.png' alt="GameCraft Owl With Sunglasses" />
 						We're a Bulgarian startup with a huge background experience in the fields
 						of <b>game theory and design</b> and <b>agile programming</b>.
 						<br>
 						Our team is focused on the business model - gamification as a service while we
-						have a strong partnership with Camplight
+						have a strong partnership with Camplight.
 					</div>
 					<div id='what_we_do'>
-						<h2 class='title' title='What we do?'>What we do? </h2>
+						<h2 class='title' title='WHAT WE DO?'>WHAT WE DO? </h2>
 						<img class = 'girl_owl' width='60' height='75' src='assets/girl_owl.png' alt="GameCraft Girl Owl" />
 						We are offering <b>Gamification as a Service</b>.
 						<br/>
@@ -92,7 +92,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<br/>
 					</div>
 					<div id='gamification'>
-						<h2 class='title' title='What is gamification?'>What is gamification? </h2>
+						<h2 class='title' title='WHAT IS GAMIFICATION?'>WHAT IS GAMIFICATION? </h2>
 						<img class = 'nerdy_owl' width='62' height='88' src='assets/nerdy_owl.png' alt="GameCraft Nerdy Owl" />
 						<div class='bubble'>
 							<div class="bubble-arrow-border"></div>

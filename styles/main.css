@@ -2,7 +2,10 @@ body {
 	/*
 	 background: none repeat scroll 0 0 #F3F3F3;
 	 */
-	background: url('../assets/bg_pattern_light.png') repeat scroll 0 0;
+	/*
+	 background: url('../assets/bg_pattern_light.png') repeat scroll 0 0;
+	 */
+
 	height: 100%;
 	color: #3e3e3e;
 }
@@ -127,51 +130,39 @@ b {
 	color: #3e3e3e;
 }
 #content {
-
+	padding: 40px 0;
 	width: 1080px;
 	height: 920px;
 	margin: 0 auto;
 }
 #content_wrapper {
 	line-height: 1.5;
-}
-#left_content {
-	height: 560px;
-	margin: 10px 0 0 100px;
-	width: 500px;
-	background-color: #fcfcfc;
-	border: 2px dashed #a8a8a8;
+	background: #dbdbdb; /* Old browsers */
+	background: -moz-linear-gradient(top, #dbdbdb 0%, #ffffff 8%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dbdbdb), color-stop(8%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #dbdbdb 0%,#ffffff 8%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #dbdbdb 0%,#ffffff 8%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #dbdbdb 0%,#ffffff 8%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(top, #dbdbdb 0%,#ffffff 8%,#ffffff 100%); /* W3C */
+	filter: progid :DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 #who_are_we, #what_we_do, #gamification {
 	float: left;
-    padding: 0 40px 20px;
-    width: 420px;
+	padding: 0 10px 20px;
+	width: 300px;
 }
-#what_we_do{
-	
+#gamification {
+	float: left;
+	padding: 0 10px 20px;
+	width: 420px;
 }
-/*
- #gamification {
- border-radius: 15px;
- border: 2px solid #b2b2b2;
- color: #3E3E3E;
- float: left;
- height: 150px;
- margin: 0 0 0 325px;
- margin-top: 20px;
- width: 460px;
- padding-left: 20px;
- padding-top: 3px;
- }
- */
 .sunglasses_owl, .nerdy_owl {
 	float: left;
 	padding: 0 25px 20px 0;
 }
-.girl_owl {
-	float: right;
-	padding-bottom: 15px;
-	padding-left: 25px;
+.girl_owl{
+	float: left;
+	padding: 10px 25px 40px 0;
 }
 /*
  h2, h3 {
@@ -182,27 +173,20 @@ b {
  }
  */
 
+h2, h3 {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background-color: #000000;
+}
 .title {
 	display: block;
-	padding: 10px;
-	color: #26272b;
+	padding: 4px 10px;
+	margin-bottom: 15px;
+	color: #F1F1F1;
 	font-weight: bold;
-	font-size: 170%;
+	font-size: 120%;
 	position: relative;
-}
-.title:before, .title:after {
-	content: attr(title);
-	padding: 10px;
-	color: rgba(255,255,255,.1);
-	position: absolute;
-}
-.title:before {
-	top: 1px;
-	left: 1px;
-}
-.title:after {
-	top: 2px;
-	left: 2px;
 }
 .bubble {
 	background-color: #FFFFFF;
