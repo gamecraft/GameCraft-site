@@ -13,6 +13,8 @@
 		<link rel="image_src" href="assets/logo.png" />
 		<link rel="stylesheet" type="text/css" href="styles/main.css" />
 		<link rel="stylesheet" type="text/css" href="styles/reset.css" />
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js'></script>
+		<script type="text/javascript" src="javascript/index.js"></script>
 	</head>
 	<body>
 		<div id='nav_wrapper'>
@@ -53,7 +55,7 @@
 			<div id='content'>
 				<div id='top_content'>
 					<div id='who_are_we'>
-						<h2 class='title' title='WHO ARE WE?'>WHO ARE WE?</h2>
+						<h2 class='title rounded' title='WHO ARE WE?'>WHO ARE WE?</h2>
 						<img class = 'sunglasses_owl' width='57' height='92' src='assets/sunglasses_owl.png' alt="GameCraft Owl With Sunglasses" />
 						We're a Bulgarian startup with a huge background experience in the fields
 						of <b>game theory and design</b> and <b>agile programming</b>.
@@ -62,7 +64,7 @@
 						have a strong partnership with Camplight.
 					</div>
 					<div id='what_we_do'>
-						<h2 class='title' title='WHAT WE DO?'>WHAT WE DO? </h2>
+						<h2 class='title rounded' title='WHAT WE DO?'>WHAT WE DO? </h2>
 						<img class = 'girl_owl' width='60' height='75' src='assets/girl_owl.png' alt="GameCraft Girl Owl" />
 						We are offering <b>Gamification as a Service</b>.
 						<br/>
@@ -71,7 +73,7 @@
 						<br/>
 					</div>
 					<div id="twitter_container">
-						<h2 class='title' title='BigFluffyOwl TWEETS'>BigFluffyOwl TWEETS <img class = 'twitter_logo' width='30' height='21' src='assets/twitter_logo.png' alt="Twitter Logo" /></h2>
+						<h2 class='title rounded' title='BigFluffyOwl TWEETS'>BigFluffyOwl TWEETS <img class = 'twitter_logo' width='30' height='21' src='assets/twitter_logo.png' alt="Twitter Logo" /></h2>
 						<ul id="twitter_update_list">
 							<li>
 								Twitter feed loading...
@@ -93,28 +95,73 @@
 						</div>
 					</div>
 					<div id="follow_container">
-						<h2 class='title' title='FOLLOW US'>FOLLOW US </h2>
+						<h2 class='title rounded' title='FOLLOW US'>FOLLOW US </h2>
 						<div class="follow_content">
 							Everything around Game-Craft:
-							<br />
-							<a href="https://www.facebook.com/GameCraftBulgaria"><img class = 'follow_logo' width='35' height='35' src='assets/f_facebook.png' alt="Follow us on Facebook" /></a>
-							<a href="https://twitter.com/#!/BigFluffyOwl"><img class = 'follow_logo' width='35' height='35' src='assets/f_twitter.png' alt="Follow us on Twitter" /></a>
-							<a href="http://www.linkedin.com/company/game-craft"><img class = 'follow_logo' width='35' height='35' src='assets/f_linkedin.png' alt="Follow us on LinkedIn" /></a>
-							<a href="http://pinterest.com/gamecraftpin/"><img class = 'follow_logo' width='35' height='35' src='assets/f_pinterest.png' alt="Follow us on Pinterest" /></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="footer-wrapper">
-			<div id="footer">
-				<a href="http://www.game-craft.com/" title="GameCraft">Game Craft</a>
-				&nbsp;|&nbsp; <a href="http://www.game-craft.com/blog/about/" title="About GameCraft">About</a>
-				<br/>
-				Copyright 2012 by Game-Craft.
+		<div id="footer_wrapper">
+			<div class="footer_content">
+				<div id="callouts">
+					<div class="menu left">
+						<p class="menu_title">
+							COMPANY
+						</p>
+						<ul>
+							<li>
+								<a href="/about.html">About us</a>
+							</li>
+							<li>
+								<a href="/blog">Blog</a>
+							</li>
+							<li>
+								<a href="mailto:level2@game-craft.com">Contact us</a>
+							</li>
+						</ul>
+					</div>
+					<div id="blog_container">
+						<p class="menu_title">
+							LATEST BLOG NEWS
+						</p>
+						<div class="homeblog">
+							Loading blog posts...
+						</div>
+					</div>
+					<div class="menu right">
+						<p class="menu_title">
+							KEEP IN TOUCH
+						</p>
+						<ul>
+							<li>
+								<a href="https://www.facebook.com/GameCraftBulgaria"><img class = 'follow_logo' width='16' height='16' src='assets/f_facebook.png' alt="Follow us on Facebook" /></a>
+								<a href="https://www.facebook.com/GameCraftBulgaria">Like us on Facebook</a>
+							</li>
+							<li>
+								<a href="https://twitter.com/#!/BigFluffyOwl"><img class = 'follow_logo' width='16' height='16' src='assets/f_twitter.png' alt="Follow us on Twitter" /></a>
+								<a href="https://twitter.com/#!/BigFluffyOwl">Fluffy's Tweets</a>
+							</li>
+							<li>
+								<a href="http://www.linkedin.com/company/game-craft"><img class = 'follow_logo' width='16' height='16' src='assets/f_linkedin.png' alt="Follow us on LinkedIn" /></a>
+								<a href="http://www.linkedin.com/company/game-craft">Follow us on LinedIn</a>
+							</li>
+							<li>
+								<a href="http://pinterest.com/gamecraftpin/"><img class = 'follow_logo' width='16' height='16' src='assets/f_pinterest.png' alt="Follow us on Pinterest" /></a>
+								<a href="http://pinterest.com/gamecraftpin/">Fluffy on Pinterest</a>
+							</li>
+						</ul>
+					</div>
+					<div class="contact_menu_container">
+						<div class="contact_menu">
+							<a class="mail_button rounded" href="http://zealotdesigns.com/contact/">Contact us now!</a>
+							Copyright © 2012 by Game-Craft.
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-		{include file="analytics.tpl"} <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=3"></script>
+			{include file="analytics.tpl"} <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+			<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
 	</body>
 </html>

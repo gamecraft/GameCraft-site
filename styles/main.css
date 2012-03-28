@@ -52,8 +52,8 @@ body {
 	background-image: -webkit-linear-gradient(bottom, #212121 90%, #050505 100%, #212121 100%);
 	background-image: -ms-linear-gradient(bottom, #212121 90%, #050505 100%, #212121 100%);
 }
-.follow_logo:hover {
-	opacity: 0.7;
+.follow_logo {
+	margin-bottom: -2px;
 }
 #nav_links li a {
 	display: block;
@@ -114,27 +114,81 @@ body {
 	margin-top: 48px;
 	width: 460px;
 }
-#footer-wrapper {
+#footer_wrapper {
 	background: none repeat scroll 0 0 #131313;
 	clear: both;
-	color: #FFFFFF;
+	color: #CCCCCC;
 	text-align: center;
 	line-height: 1.5;
 	padding: 20px;
 }
-#footer a:link {
-	color: #FFFFFF;
-}
-#footer a:visited {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-#footer a:hover {
-	color: #DDDDDD;
-	text-decoration: none;
-}
-#footer a:active {
+.menu_title {
 	color: #CCCCCC;
+	font-family: HelveticaNeue, "Helvetica Neue", helvetica, arial, sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+}
+.footer_content {
+	margin: 0 auto;
+	text-align: left;
+	width: 960px;
+}
+#callouts {
+	clear: left;
+	height: 120px;
+}
+.menu {
+	border-right: 1px solid #414141;
+	float: left;
+	height: 120px;
+	width: 160px;
+}
+.footer_content .left {
+	margin-left: 10px;
+}
+.footer_content .right {
+	margin-right: 10px;
+}
+#blog_container {
+	border-right: 1px solid #414141;
+	float: left;
+	height: 120px;
+	margin: 0 10px;
+	width: 297px;
+}
+.menu ul {
+	list-style: none outside none;
+	list-style: none outside none;
+}
+.contact_menu_container {
+	float: left;
+	width: 280px;
+}
+.contact_menu {
+
+	margin: 0 auto;
+	width: 200px;
+}
+.footer_content .mail_button {
+	background: url("../assets/mail_icon.png") no-repeat scroll 15px center #3F3F3F;
+	border: medium none;
+	display: block;
+	padding: 10px 0 10px 20px;
+	text-align: center;
+	width: 150px;
+	margin-bottom: 10px;
+}
+.footer_content .mail_button:hover {
+	background: url("../assets/mail_icon.png") no-repeat scroll 15px center #4D4D4D;
+}
+.footer_content a:link, .footer_content  a:visited, .footer_content h4, .footer_content h4:visited {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.footer_content a:hover, .footer_content  a:active, .footer_content h4:hover, .footer_content h4:active {
+	color: #FFFFFF;
 	text-decoration: none;
 }
 b {
@@ -148,15 +202,18 @@ b {
 #content_wrapper {
 	line-height: 1.5;
 	background: #dbdbdb; /* Old browsers */
-	background: -moz-linear-gradient(top, #dbdbdb 0%, #ffffff 8%, #ffffff 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dbdbdb), color-stop(8%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #dbdbdb 0%,#ffffff 8%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #dbdbdb 0%,#ffffff 8%,#ffffff 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #dbdbdb 0%,#ffffff 8%,#ffffff 100%); /* IE10+ */
-	background: linear-gradient(top, #dbdbdb 0%,#ffffff 8%,#ffffff 100%); /* W3C */
+	background: -moz-linear-gradient(top, #dbdbdb 0%, #ffffff 73%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dbdbdb), color-stop(73%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #dbdbdb 0%,#ffffff 73%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #dbdbdb 0%,#ffffff 73%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #dbdbdb 0%,#ffffff 73%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(top, #dbdbdb 0%,#ffffff 73%,#ffffff 100%); /* W3C */
 	filter: progid :DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 #who_are_we, #what_we_do, #twitter_container, #follow_container {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
 	float: left;
 	margin: 0 10px 20px;
 	width: 300px;
@@ -165,7 +222,6 @@ b {
 #follow_container {
 	padding-bottom: 10px;
 	margin-bottom: 25px;
-	border-radius: 6px;
 	background-color: #272727;
 	color: #FFFFFF;
 }
@@ -178,11 +234,10 @@ b {
 }
 #twitter_container {
 	background-color: #E9E9E9;
-	border-radius: 6px;
 }
 #gamification {
 	float: left;
-	padding: 0 10px;
+	margin: 0 10px 30px;
 	width: 620px;
 }
 .sunglasses_owl {
@@ -197,25 +252,12 @@ b {
 	float: right;
 	padding-right: 10px;
 }
-/*
- h2, h3 {
- margin: 0;
- padding: 0;
- border: 0;
- text-shadow: 1px 1px 0 #FFFFFF;
- }
-
- h2, h3 {
- -webkit-border-radius: 6px;
- -moz-border-radius: 6px;
- border-radius: 6px;
- background-color: #000000;
- }
- */
-.title {
+.rounded {
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
+}
+.title {
 	background-color: #000000;
 	display: block;
 	padding: 4px 10px;
