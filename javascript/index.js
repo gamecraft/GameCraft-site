@@ -13,3 +13,11 @@ blog.posts().all(function(posts){
     });
   }
 });
+
+$(document).ready(function() {
+	$('img.our_projects_button').hover(function() {
+		$(this).attr("src", "assets/projects-button-hover.png");
+	}, function() {
+		$(this).attr("src", "assets/projects-button.png");
+	});
+});

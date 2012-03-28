@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-03-28 19:33:47
+<?php /* Smarty version Smarty-3.1.8, created on 2012-03-28 22:20:17
          compiled from "templates\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:212324f47a73d67a5d4-95978130%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f90be83b235fb03cc225b11607032e9ddd415899' => 
     array (
       0 => 'templates\\index.tpl',
-      1 => 1332956025,
+      1 => 1332966016,
       2 => 'file',
     ),
   ),
@@ -115,11 +115,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							Gamification refers to incorporating game elements and mechanics into non-gaming websites and software.
 						</div>
 					</div>
-					<div id="follow_container">
-						<h2 class='title rounded' title='FOLLOW US'>FOLLOW US </h2>
-						<div class="follow_content">
-							Everything around Game-Craft:
-						</div>
+					<div id="our_projects">
+						<a href="http://game-lab.co/"><img class = 'our_projects_button' width='300' height='110' src='assets/projects-button.png' alt="Our Projects" /></a>
 					</div>
 				</div>
 			</div>
@@ -176,7 +173,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					</div>
 					<div class="contact_menu_container">
 						<div class="contact_menu">
-							<a class="mail_button rounded" href="http://zealotdesigns.com/contact/">Contact us now!</a>
+							<a class="mail_button rounded" href="mailto:level2@game-craft.com">Contact us now!</a>
 							Copyright © 2012 by Game-Craft.
 						</div>
 					</div>

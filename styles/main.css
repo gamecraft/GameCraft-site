@@ -24,7 +24,7 @@ body {
 	text-decoration: none;
 	float: left;
 	font-size: 16px;
-	margin: 9px 270px 9px 110px;
+	padding: 9px 0 9px 10px;
 }
 .email:hover {
 	text-decoration: underline;
@@ -35,6 +35,7 @@ body {
 	right: 5px;
 }
 #nav_links {
+	float: right;
 	display: inline-block;
 	list-style: none outside none;
 	margin: 0;
@@ -46,11 +47,8 @@ body {
 	padding: 0;
 }
 #nav_links li:hover {
-	background-image: linear-gradient(bottom, #212121 90%, #050505 100%, #212121 100%);
-	background-image: -o-linear-gradient(bottom, #212121 90%, #050505 100%, #212121 100%);
-	background-image: -moz-linear-gradient(bottom, #212121 90%, #050505 100%, #212121 100%);
-	background-image: -webkit-linear-gradient(bottom, #212121 90%, #050505 100%, #212121 100%);
-	background-image: -ms-linear-gradient(bottom, #212121 90%, #050505 100%, #212121 100%);
+	background-color: #2B2B2B;
+
 }
 .follow_logo {
 	margin-bottom: -2px;
@@ -164,7 +162,7 @@ body {
 }
 .contact_menu_container {
 	float: left;
-	width: 280px;
+	width: 300px;
 }
 .contact_menu {
 
@@ -172,7 +170,7 @@ body {
 	width: 200px;
 }
 .footer_content .mail_button {
-	background: url("../assets/mail_icon.png") no-repeat scroll 15px center #3F3F3F;
+	background: url("../assets/mail_icon.png") no-repeat scroll 15px center #272727;
 	border: medium none;
 	display: block;
 	padding: 10px 0 10px 20px;
@@ -181,7 +179,7 @@ body {
 	margin-bottom: 10px;
 }
 .footer_content .mail_button:hover {
-	background: url("../assets/mail_icon.png") no-repeat scroll 15px center #4D4D4D;
+	background: url("../assets/mail_icon.png") no-repeat scroll 15px center #343434;
 }
 .footer_content a:link, .footer_content  a:visited, .footer_content h4, .footer_content h4:visited {
 	color: #CCCCCC;
@@ -235,10 +233,21 @@ b {
 #twitter_container {
 	background-color: #E9E9E9;
 }
-#gamification {
+#gamification, #our_projects {
 	float: left;
 	margin: 0 10px 30px;
+}
+#gamification {
 	width: 620px;
+}
+h2.gamification {
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 120%;
+	color: #000000;
+}
+.our_projects_button {
+	margin-top: 30px;
 }
 .sunglasses_owl {
 	float: left;
@@ -368,11 +377,4 @@ b {
 .twitter_logo {
 	position: absolute;
 	right: 10px;
-}
-h2.gamification {
-
-	margin-bottom: 10px;
-	font-weight: bold;
-	font-size: 120%;
-	color: #000000;
 }

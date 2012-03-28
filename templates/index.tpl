@@ -94,11 +94,8 @@
 							Gamification refers to incorporating game elements and mechanics into non-gaming websites and software.
 						</div>
 					</div>
-					<div id="follow_container">
-						<h2 class='title rounded' title='FOLLOW US'>FOLLOW US </h2>
-						<div class="follow_content">
-							Everything around Game-Craft:
-						</div>
+					<div id="our_projects">
+						<a href="http://game-lab.co/"><img class = 'our_projects_button' width='300' height='110' src='assets/projects-button.png' alt="Our Projects" /></a>
 					</div>
 				</div>
 			</div>
@@ -155,7 +152,7 @@
 					</div>
 					<div class="contact_menu_container">
 						<div class="contact_menu">
-							<a class="mail_button rounded" href="http://zealotdesigns.com/contact/">Contact us now!</a>
+							<a class="mail_button rounded" href="mailto:level2@game-craft.com">Contact us now!</a>
 							Copyright © 2012 by Game-Craft.
 						</div>
 					</div>
