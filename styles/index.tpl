@@ -1,25 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-04-02 18:38:29
-         compiled from "templates\index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:212324f47a73d67a5d4-95978130%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-$_valid = $_smarty_tpl->decodeProperties(array (
-  'file_dependency' => 
-  array (
-    'f90be83b235fb03cc225b11607032e9ddd415899' => 
-    array (
-      0 => 'templates\\index.tpl',
-      1 => 1333384707,
-      2 => 'file',
-    ),
-  ),
-  'nocache_hash' => '212324f47a73d67a5d4-95978130',
-  'function' => 
-  array (
-  ),
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_4f47a73d7b5689_43232986',
-  'has_nocache_code' => false,
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_4f47a73d7b5689_43232986')) {function content_4f47a73d7b5689_43232986($_smarty_tpl) {?><!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<title> GameCraft - Gamification as a Service </title>
@@ -38,9 +17,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<script type="text/javascript" src="javascript/index.js"></script>
 	</head>
 	<body>
-		<div id='support'>
-			<a href="http://start.zadrujno.bg/2028/podkrepi-game-craft.aspx?id=2028">Support us on Zadrujno (The Bulgarian Crowd-Funding Platform)</a>
-		</div>
 		<div id='nav_wrapper'>
 			<div class='container'>
 				<div id="email">
@@ -54,7 +30,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<a href="http://www.game-craft.com/blog/about/">About Us</a>
 					</li>
 					<li class='nav'>
-						<a href="http://eepurl.com/gssvf" target="_blank">Subscribe</a>
+						<a href="http://eepurl.com/gssvf" target="_blank">Susbscribe</a>
 					</li>
 					<li class='nav'>
 						<a href="http://www.game-craft.com/blog/">Blog</a>
@@ -166,7 +142,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							</li>
 							<li>
 								<a href="http://www.linkedin.com/company/game-craft"><img class = 'follow_logo' width='16' height='16' src='assets/f_linkedin.png' alt="Follow us on LinkedIn" /></a>
-								<a href="http://www.linkedin.com/company/game-craft">Follow us on LinkedIn</a>
+								<a href="http://www.linkedin.com/company/game-craft">Follow us on LinedIn</a>
 							</li>
 							<li>
 								<a href="http://pinterest.com/gamecraftpin/"><img class = 'follow_logo' width='16' height='16' src='assets/f_pinterest.png' alt="Follow us on Pinterest" /></a>
@@ -182,9 +158,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					</div>
 				</div>
 			</div>
-			<?php echo $_smarty_tpl->getSubTemplate ("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
- <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+			{include file="analytics.tpl"} <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 			<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
 	</body>
 </html>
-<?php }} ?>

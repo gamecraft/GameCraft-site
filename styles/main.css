@@ -48,7 +48,6 @@ body {
 }
 #nav_links li:hover {
 	background-color: #2B2B2B;
-
 }
 .follow_logo {
 	margin-bottom: -2px;
@@ -125,6 +124,7 @@ body {
 	font-family: HelveticaNeue, "Helvetica Neue", helvetica, arial, sans-serif;
 	font-size: 100%;
 	font-weight: bold;
+	padding-bottom: 5px;
 	text-align: left;
 	text-transform: uppercase;
 }
@@ -158,11 +158,10 @@ body {
 }
 .menu ul {
 	list-style: none outside none;
-	list-style: none outside none;
 }
 .contact_menu_container {
 	float: left;
-	width: 300px;
+	width: 293px;
 }
 .contact_menu {
 
@@ -239,6 +238,7 @@ b {
 }
 #gamification {
 	width: 620px;
+	clear: left;
 }
 h2.gamification {
 	margin-bottom: 10px;
@@ -377,4 +377,22 @@ h2.gamification {
 .twitter_logo {
 	position: absolute;
 	right: 10px;
+}
+#support {
+	padding: 3px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #FEC973;
+	text-shadow: 1px 1px 0px #F4C669;
+	filter: dropshadow(color=#F4C669, offx=1, offy=1);
+}
+#support a:link, #support:visited {
+	color: #565656;
+}
+#support:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#top_content{
+	clear: both;
 }
