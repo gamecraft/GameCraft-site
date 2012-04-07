@@ -1,5 +1,5 @@
 <?php
-require_once ("smarty/Smarty.class.php");
+require_once ("includes.php");
 
 $s = new Smarty();
 $s -> setTemplateDir("templates");
