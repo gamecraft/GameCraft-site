@@ -1,4 +1,25 @@
-<!DOCTYPE HTML>
+<?php /* Smarty version Smarty-3.1.8, created on 2012-04-02 18:38:29
+         compiled from "templates\index.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:212324f47a73d67a5d4-95978130%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'f90be83b235fb03cc225b11607032e9ddd415899' => 
+    array (
+      0 => 'templates\\index.tpl',
+      1 => 1333384707,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '212324f47a73d67a5d4-95978130',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4f47a73d7b5689_43232986',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4f47a73d7b5689_43232986')) {function content_4f47a73d7b5689_43232986($_smarty_tpl) {?><!DOCTYPE HTML>
 <html>
 	<head>
 		<title> GameCraft - Gamification as a Service </title>
@@ -18,7 +39,7 @@
 	</head>
 	<body>
 		<div id='support'>
-			<a href="http://start.zadrujno.bg/2028/podkrepi-game-craft.aspx?id=2028" target="_blank">Support us on Zadrujno (The Bulgarian Crowd-Funding Platform)</a>
+			<a href="http://start.zadrujno.bg/2028/podkrepi-game-craft.aspx?id=2028">Support us on Zadrujno (The Bulgarian Crowd-Funding Platform)</a>
 		</div>
 		<div id='nav_wrapper'>
 			<div class='container'>
@@ -161,7 +182,9 @@
 					</div>
 				</div>
 			</div>
-			{include file="analytics.tpl"} <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+			<?php echo $_smarty_tpl->getSubTemplate ("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+ <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 			<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
 	</body>
 </html>
+<?php }} ?>
