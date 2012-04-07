@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-04-02 18:38:29
+<?php /* Smarty version Smarty-3.1.8, created on 2012-04-07 17:24:47
          compiled from "templates\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:212324f47a73d67a5d4-95978130%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f90be83b235fb03cc225b11607032e9ddd415899' => 
     array (
       0 => 'templates\\index.tpl',
-      1 => 1333384707,
+      1 => 1333810878,
       2 => 'file',
     ),
   ),
@@ -39,7 +39,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	</head>
 	<body>
 		<div id='support'>
-			<a href="http://start.zadrujno.bg/2028/podkrepi-game-craft.aspx?id=2028">Support us on Zadrujno (The Bulgarian Crowd-Funding Platform)</a>
+			<a href="http://start.zadrujno.bg/2028/podkrepi-game-craft.aspx?id=2028" target="_blank">Support us on Zadrujno (The Bulgarian Crowd-Funding Platform)</a>
 		</div>
 		<div id='nav_wrapper'>
 			<div class='container'>
