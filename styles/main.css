@@ -111,9 +111,13 @@ body {
 	margin-top: 48px;
 	width: 460px;
 }
+
+.clear {
+	clear: both;
+}
 #footer_wrapper {
 	background: none repeat scroll 0 0 #131313;
-	clear: both;
+	margin-top: 20px;
 	color: #CCCCCC;
 	text-align: center;
 	line-height: 1.5;
@@ -234,7 +238,7 @@ b {
 }
 #gamification, #our_projects {
 	float: left;
-	margin: 0 10px 30px;
+	margin: 0 10px;
 }
 #gamification {
 	width: 620px;

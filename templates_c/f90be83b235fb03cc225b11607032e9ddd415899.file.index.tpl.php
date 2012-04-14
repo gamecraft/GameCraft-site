@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-04-07 17:24:47
+<?php /* Smarty version Smarty-3.1.8, created on 2012-04-14 16:26:43
          compiled from "templates\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:212324f47a73d67a5d4-95978130%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f90be83b235fb03cc225b11607032e9ddd415899' => 
     array (
       0 => 'templates\\index.tpl',
-      1 => 1333810878,
+      1 => 1334413599,
       2 => 'file',
     ),
   ),
@@ -124,6 +124,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 			</div>
 		</div>
+		<div class="clear"></div>
 		<div id="footer_wrapper">
 			<div class="footer_content">
 				<div id="callouts">
@@ -182,9 +183,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					</div>
 				</div>
 			</div>
-			<?php echo $_smarty_tpl->getSubTemplate ("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+		</div>
+		<?php echo $_smarty_tpl->getSubTemplate ("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
  <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-			<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
+		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
 	</body>
 </html>
 <?php }} ?>

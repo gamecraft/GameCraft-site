@@ -1,4 +1,30 @@
-<!DOCTYPE HTML>
+<?php /* Smarty version Smarty-3.1.8, created on 2012-04-14 16:54:24
+         compiled from "../templates\clients.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:72474f85823a0689a7-43245963%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'da77d3eb017a0cda7a99fdb083ce9799713b1452' => 
+    array (
+      0 => '../templates\\clients.tpl',
+      1 => 1334415263,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '72474f85823a0689a7-43245963',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4f85823a564301_25815324',
+  'variables' => 
+  array (
+    'clientsArray' => 0,
+    'v' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4f85823a564301_25815324')) {function content_4f85823a564301_25815324($_smarty_tpl) {?><!DOCTYPE HTML>
 <html>
 	<head>
 		<title> GameCraft - Gamification as a Service </title>
@@ -59,11 +85,19 @@
 					scelerisque placerat fringilla.
 				</p>
 				<div class="clients_list">
-					{foreach from=$clientsArray key=k item=v}
+					<?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
+ $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->tpl_vars['clientsArray']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value){
+$_smarty_tpl->tpl_vars['v']->_loop = true;
+ $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['v']->key;
+?>
 					<div class="client_logo">
-						<a href="{$v->description_link}.html"><img src="../assets/clients/{$v->logo}.png" width="200" height="150" /></a>
+						<a href="<?php echo $_smarty_tpl->tpl_vars['v']->value->description_link;?>
+.html"><img src="../assets/clients/<?php echo $_smarty_tpl->tpl_vars['v']->value->logo;?>
+.png" width="200" height="150" /></a>
 					</div>
-					{/foreach}
+					<?php } ?>
 				</div>
 			</div>
 		</div>
@@ -127,7 +161,9 @@
 				</div>
 			</div>
 		</div>
-		{include file="analytics.tpl"} <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+		<?php echo $_smarty_tpl->getSubTemplate ("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+ <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
 	</body>
 </html>
+<?php }} ?>
