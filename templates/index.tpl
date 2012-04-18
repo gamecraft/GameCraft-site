@@ -51,6 +51,9 @@
 					<div class="title_under">
 						“We create game layers for web-sites and real-life activities by using Gamification and Game-Design techniques”
 					</div>
+					<div class="video">
+						<iframe width="350" height="208" src="http://www.youtube.com/embed/5yE4JNhVe7Q" frameborder="0" allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
 		</div>
