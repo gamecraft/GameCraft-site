@@ -112,3 +112,28 @@ $(document).ready(function() {
 		$(this).attr("src", "assets/projects-button.png");
 	});
 });
+
+//TRANSFORMS AN IMAGE INTO A BACKGOUND-IMG AND GIVES IT ROUNDED CORNERS
+
+//Checks if the browser supports "Border Radius"
+function hasBorderRadius() {
+	var d = document.createElement("div").style;
+	if( typeof d.borderRadius !== "undefined")
+		return true;
+	if( typeof d.WebkitBorderRadius !== "undefined")
+		return true;
+	if( typeof d.MozBorderRadius !== "undefined")
+		return true;
+	return false;
+};
+
+if(hasBorderRadius()) {
+	$("img.rounded").each(function() {
+		$(this).wrap('<div class="rounded" />');
+		var imgSrc = $(this).attr("src");
+		var imgHeight = $(this).height();
+		var imgWidth = $(this).width();
+		$(this).parent().css("background-image", "url(" + imgSrc + ")").css("background-repeat", "no-repeat").css("height", imgHeight + "px").css("width", imgWidth + "px");
+		$(this).remove();
+	});
+}

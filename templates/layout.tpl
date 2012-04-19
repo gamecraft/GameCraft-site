@@ -1,37 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-04-19 20:40:39
-         compiled from "../templates\clients.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:149504f9036cf5f8424-83743286%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-$_valid = $_smarty_tpl->decodeProperties(array (
-  'file_dependency' => 
-  array (
-    'da77d3eb017a0cda7a99fdb083ce9799713b1452' => 
-    array (
-      0 => '../templates\\clients.tpl',
-      1 => 1334860836,
-      2 => 'file',
-    ),
-    'a6545942fca3e1de6962c830d77cf2837c8f99fa' => 
-    array (
-      0 => '../templates\\layout.tpl',
-      1 => 1334854266,
-      2 => 'file',
-    ),
-    '22ddca696bd55a0853abd0396aea808c37affad0' => 
-    array (
-      0 => '../templates\\analytics.tpl',
-      1 => 1333810878,
-      2 => 'file',
-    ),
-  ),
-  'nocache_hash' => '149504f9036cf5f8424-83743286',
-  'function' => 
-  array (
-  ),
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_4f9036cf76e541_93156923',
-  'has_nocache_code' => false,
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_4f9036cf76e541_93156923')) {function content_4f9036cf76e541_93156923($_smarty_tpl) {?><!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<title> GameCraft - Gamification as a Service </title>
@@ -45,10 +12,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<meta property="og:image" content="assets/logo.png" />
 		<link rel="stylesheet" type="text/css" href="../styles/layout.css" />
 		<link rel="stylesheet" type="text/css" href="../styles/reset.css" />
-		
-<link rel="stylesheet" type="text/css" href="../styles/clients.css" />
-
-		<title>GameCraft - Our Clients</title>
+		{block name=head}{/block}
+		<title>{block name=title}{/block}</title>
 	</head>
 	<body>
 		<div id='nav_wrapper'>
@@ -79,37 +44,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</div>
 		<div id="content_wrapper">
 			<div id="content">
-				
-<div class="breadcrumb">
-	<a href="http://www.game-craft.com/">Home</a>
-	&gt;
-	Our Clients
-</div>
-<h2 class='title rounded' title='OUR CLIENTS'>OUR CLIENTS</h2>
-<p class="clients_info">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur lectus et eros
-	feugiat fringilla sit amet vel lorem. Nullam magna dolor, vestibulum a porttitor non, blandit
-	eget lorem. Nunc commodo nisi non felis auctor pellentesque. Vestibulum lobortis nulla ut ligula
-	adipiscing eu pellentesque ligula facilisis. Ut ligula magna, suscipit ut posuere at, placerat id
-	tellus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed
-	scelerisque placerat fringilla.
-</p>
-<div class="clients_list">
-	<?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
- $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['clientsArray']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value){
-$_smarty_tpl->tpl_vars['v']->_loop = true;
- $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['v']->key;
-?>
-	
-		<a class="client_logo" href="<?php echo $_smarty_tpl->tpl_vars['v']->value->description_link;?>
-.html"><img src="../assets/clients/<?php echo $_smarty_tpl->tpl_vars['v']->value->logo;?>
-.png" width="200" height="150" /></a>
-	
-	<?php } ?>
-</div>
-
+				{block name=content}{/block}
 			</div>
 		</div>
 		<div class="clear"></div>
@@ -172,30 +107,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 				</div>
 			</div>
 		</div>
-		<?php /*  Call merged included template "analytics.tpl" */
-$_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '149504f9036cf5f8424-83743286');
-content_4f905c27ef6339_10364709($_smarty_tpl);
-$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "analytics.tpl" */?> <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+		{include file="analytics.tpl"} <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
 	</body>
 </html>
-<?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-04-19 20:40:39
-         compiled from "../templates\analytics.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_4f905c27ef6339_10364709')) {function content_4f905c27ef6339_10364709($_smarty_tpl) {?>		<script type="text/javascript">
-		
-			<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-29799450-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-		
-		</script><?php }} ?>

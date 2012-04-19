@@ -89,7 +89,7 @@ body {
 	background: url("../assets/header_brushes.png") no-repeat scroll 0 0 transparent;
 	float: right;
 	height: 139px;
-	margin: 25px 0 0;
+	margin: 10px 0 0;
 	width: 761px;
 }
 #header_content .gaas, .title_under {
@@ -111,7 +111,7 @@ body {
 	width: 740px;
 }
 .video {
-	margin: 10px 0 0 200px;
+	margin: 20px 0 0 200px;
 }
 .clear {
 	clear: both;
@@ -197,7 +197,7 @@ b {
 	color: #3e3e3e;
 }
 #content {
-	padding: 40px 0 20px;;
+	padding: 40px 0 20px;
 	width: 960px;
 	margin: 0 auto;
 }

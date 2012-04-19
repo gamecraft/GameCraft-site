@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-04-19 20:40:39
-         compiled from "../templates\clients.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:149504f9036cf5f8424-83743286%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.8, created on 2012-04-19 20:37:56
+         compiled from "../templates\projects.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:70734f90374d6d1c78-84176122%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'da77d3eb017a0cda7a99fdb083ce9799713b1452' => 
+    'e43b85ee41c41900f1ecacbcf1d1a846705ef613' => 
     array (
-      0 => '../templates\\clients.tpl',
-      1 => 1334860836,
+      0 => '../templates\\projects.tpl',
+      1 => 1334860672,
       2 => 'file',
     ),
     'a6545942fca3e1de6962c830d77cf2837c8f99fa' => 
@@ -23,15 +23,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '149504f9036cf5f8424-83743286',
+  'nocache_hash' => '70734f90374d6d1c78-84176122',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_4f9036cf76e541_93156923',
+  'unifunc' => 'content_4f90374d8ab0c4_26656465',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_4f9036cf76e541_93156923')) {function content_4f9036cf76e541_93156923($_smarty_tpl) {?><!DOCTYPE HTML>
+<?php if ($_valid && !is_callable('content_4f90374d8ab0c4_26656465')) {function content_4f90374d8ab0c4_26656465($_smarty_tpl) {?><!DOCTYPE HTML>
 <html>
 	<head>
 		<title> GameCraft - Gamification as a Service </title>
@@ -46,9 +46,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<link rel="stylesheet" type="text/css" href="../styles/layout.css" />
 		<link rel="stylesheet" type="text/css" href="../styles/reset.css" />
 		
-<link rel="stylesheet" type="text/css" href="../styles/clients.css" />
+<link rel="stylesheet" type="text/css" href="../styles/projects.css" />
 
-		<title>GameCraft - Our Clients</title>
+		<title>GameCraft - Our Projects</title>
 	</head>
 	<body>
 		<div id='nav_wrapper'>
@@ -83,10 +83,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div class="breadcrumb">
 	<a href="http://www.game-craft.com/">Home</a>
 	&gt;
-	Our Clients
+	Our Projects
 </div>
-<h2 class='title rounded' title='OUR CLIENTS'>OUR CLIENTS</h2>
-<p class="clients_info">
+<h2 class='title rounded' title='OUR CLIENTS'>OUR PROJECTS</h2>
+<p class="projects_info">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur lectus et eros
 	feugiat fringilla sit amet vel lorem. Nullam magna dolor, vestibulum a porttitor non, blandit
 	eget lorem. Nunc commodo nisi non felis auctor pellentesque. Vestibulum lobortis nulla ut ligula
@@ -94,20 +94,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	tellus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed
 	scelerisque placerat fringilla.
 </p>
-<div class="clients_list">
-	<?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
- $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['clientsArray']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value){
-$_smarty_tpl->tpl_vars['v']->_loop = true;
- $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['v']->key;
-?>
-	
-		<a class="client_logo" href="<?php echo $_smarty_tpl->tpl_vars['v']->value->description_link;?>
-.html"><img src="../assets/clients/<?php echo $_smarty_tpl->tpl_vars['v']->value->logo;?>
-.png" width="200" height="150" /></a>
-	
-	<?php } ?>
+<div class="projects_list">
+
+	<a class="project" href="http://game-lab.co/" target="_blank" >
+	<div class="project_image"><img src="../assets/projects/gamelab.png" width="400" height="120" alt="GameLab" />
+	</div>
+	<div class="project_description">
+		Build quick and easy incentive programs and gamification layers with Game Lab to measure and influence user behavior.
+	</div> </a>
+
+	<a class="project" href="#">
+	<div class="project_image"><img src="../assets/projects/secret.png" width="400" height="120" alt="GameLab" />
+	</div>
+	<div class="project_description">
+		Comming soon...
+	</div> </a>
+
 </div>
 
 			</div>
@@ -174,15 +176,15 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 		</div>
 		<?php /*  Call merged included template "analytics.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '149504f9036cf5f8424-83743286');
-content_4f905c27ef6339_10364709($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '70734f90374d6d1c78-84176122');
+content_4f905b84c1b9e5_46043994($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "analytics.tpl" */?> <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
 	</body>
 </html>
-<?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-04-19 20:40:39
+<?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-04-19 20:37:56
          compiled from "../templates\analytics.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_4f905c27ef6339_10364709')) {function content_4f905c27ef6339_10364709($_smarty_tpl) {?>		<script type="text/javascript">
+<?php if ($_valid && !is_callable('content_4f905b84c1b9e5_46043994')) {function content_4f905b84c1b9e5_46043994($_smarty_tpl) {?>		<script type="text/javascript">
 		
 			<script type="text/javascript">
 
