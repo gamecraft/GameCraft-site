@@ -3,7 +3,7 @@
 	<head>
 		<title> GameCraft - Gamification as a Service </title>
 		<link type="text/plain" rel="author" href="http://game-craft.com/humans.txt" />
-		<meta name="keywords" content="GameCraft, Bulgaria, Startup, Gamification as a Service, Gamification, Game Design, Playful Design, Motivational Design" />
+		<meta name="keywords" content="GameCraft, Bulgaria, Startup, Gamification as a Service, Gamification, Game Design, Playful Design, Motivational Design, геймификация, гемификация, геймификейшън, гемификейшън, гамификация, гамификейшън, гамификейшън" />
 		<meta name="description" content="GameCraft is the first Eastern-European Startup (Based in Bulgaria) that provides Gamification as a Service." />
 		<meta name="author" content="Check humans.txt" />
 		<meta charset="utf-8" />
