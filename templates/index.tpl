@@ -51,6 +51,9 @@
 					<div class="title_under">
 						“We create game layers for web-sites and real-life activities by using Gamification and Game-Design techniques”
 					</div>
+					<div class="video">
+						<iframe width="350" height="208" src="http://www.youtube.com/embed/5yE4JNhVe7Q" frameborder="0" allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -103,6 +106,7 @@
 				</div>
 			</div>
 		</div>
+		<div class="clear"></div>
 		<div id="footer_wrapper">
 			<div class="footer_content">
 				<div id="callouts">
@@ -161,7 +165,8 @@
 					</div>
 				</div>
 			</div>
-			{include file="analytics.tpl"} <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-			<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
+		</div>
+		{include file="analytics.tpl"} <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
 	</body>
 </html>

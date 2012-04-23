@@ -80,40 +80,45 @@ body {
 	background: url("../assets/logo.png") no-repeat scroll 0 0 transparent;
 	float: left;
 	height: 294px;
+	margin-left: 80px;
 	margin-top: 10px;
-	margin-left: 110px;
 	width: 231px;
 	z-index: 99;
 }
 #header_content .brushes {
 	background: url("../assets/header_brushes.png") no-repeat scroll 0 0 transparent;
 	float: right;
-	width: 610px;
 	height: 139px;
-	margin: 85px 100px 0 0;
+	margin: 10px 0 0;
+	width: 761px;
 }
 #header_content .gaas, .title_under {
-	color: #f7f7a3;
+	color: #F7F7A3;
 	font-family: HelveticaNeueMedium, HelveticaNeue-Medium, "Helvetica Neue Medium", HelveticaNeue, "Helvetica Neue", helvetica, arial, sans-serif;
 }
 #header_content .gaas {
-	font-size: 330%;
+	font-size: 240%;
 	font-weight: 600;
-	margin-left: 40px;
-	margin-top: 28px;
 	line-height: 1px;
+	margin-left: 140px;
+	margin-top: 20px;
 }
 #header_content .title_under {
-	font-size: 130%;
+	font-size: 110%;
 	font-style: italic;
 	line-height: 17px;
-	margin-left: 140px;
-	margin-top: 48px;
-	width: 460px;
+	margin: 20px 0 0 20px;
+	width: 740px;
+}
+.video {
+	margin: 20px 0 0 200px;
+}
+.clear {
+	clear: both;
 }
 #footer_wrapper {
 	background: none repeat scroll 0 0 #131313;
-	clear: both;
+	margin-top: 20px;
 	color: #CCCCCC;
 	text-align: center;
 	line-height: 1.5;
@@ -192,7 +197,7 @@ b {
 	color: #3e3e3e;
 }
 #content {
-	padding: 40px 0 20px;;
+	padding: 40px 0 20px;
 	width: 960px;
 	margin: 0 auto;
 }
@@ -234,7 +239,7 @@ b {
 }
 #gamification, #our_projects {
 	float: left;
-	margin: 0 10px 30px;
+	margin: 0 10px;
 }
 #gamification {
 	width: 620px;
@@ -393,6 +398,6 @@ h2.gamification {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-#top_content{
+#top_content {
 	clear: both;
 }

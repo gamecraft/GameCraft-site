@@ -1,0 +1,31 @@
+.clients_info {
+	margin-bottom: 20px;
+}
+.clients_list {
+	margin-left: auto;
+	margin-right: auto;
+	width: 880px;
+}
+.client_logo {
+	/*
+	 float:left;
+	 width: 200px;
+	 height: 150px;
+	 margin: 8px;
+	 border: 2px solid #CCCCCC;
+	 */
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin: 5px;
+	border: 1px solid #DBDBDB;
+	padding: 4px;
+}
+.client_logo:hover {
+	/*
+	 margin: 7px;
+	 border: 3px solid #D76010;
+	 */
+	border: 1px solid #D76010;
+	background-color: #D76010;
+}
