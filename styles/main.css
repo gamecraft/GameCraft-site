@@ -164,39 +164,36 @@ body {
 .menu ul {
 	list-style: none outside none;
 }
-.contact_menu_container {
+.partners_container {
 	float: left;
 	width: 293px;
 }
-.contact_menu {
-	margin: 0 auto;
-	width: 200px;
-}
-.partners{
-	margin-left: 3px;
-}
-.partner_logo{
+
+.partner_logo {
 	text-align: center;
-	margin-right: 10px;
+	margin-right: 1px;
 	float: left;
 	width: 70px;
+	height: 70px;
 	padding: 3px;
+}
+.sis {
+	width: 130px;
 }
 .partner_logo:hover {
 	background-color: #272727;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-	
 }
 .footer_content .mail_button {
 	background: url("../assets/mail_icon.png") no-repeat scroll 15px center #272727;
 	border: medium none;
 	display: block;
-	padding: 10px 0 10px 20px;
+	padding: 10px 0 10px 25px;
 	text-align: center;
-	width: 150px;
-	margin-bottom: 10px;
+	width: 110px;
+	margin: 5px 0 10px 0;
 }
 .footer_content .mail_button:hover {
 	background: url("../assets/mail_icon.png") no-repeat scroll 15px center #343434;

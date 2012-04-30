@@ -125,6 +125,7 @@
 								<a href="mailto:level2@game-craft.com">Contact us</a>
 							</li>
 						</ul>
+						<a class="mail_button rounded" href="mailto:level2@game-craft.com">Contact us!</a>
 					</div>
 					<div id="blog_container">
 						<p class="menu_title">
@@ -157,14 +158,19 @@
 							</li>
 						</ul>
 					</div>
-					<div class="contact_menu_container">
-						<div class="contact_menu">
-							<a class="mail_button rounded" href="mailto:level2@game-craft.com">Contact us now!</a>
-							<div class="partners">
-								<div class="partner_logo"><a href="http://camplight.net/"><img  width='50' height='70' src='assets/camplight.png' alt="camplight logo" /></a></div>
-								<div class="partner_logo"><a href="http://initlab.org/"><img  width='46' height='70' src='assets/initlab.png' alt="initlab logo" /></a></div>
-							</div>
+					<div class="partners_container">
 
+						<p class="menu_title">
+							OUR PARTNERS
+						</p>
+						<div class="partner_logo">
+							<a href="http://camplight.net/"><img  width='50' height='70' src='assets/camplight.png' alt="camplight logo" /></a>
+						</div>
+						<div class="partner_logo">
+							<a href="http://initlab.org/"><img  width='46' height='70' src='assets/initlab.png' alt="initlab logo" /></a>
+						</div>
+						<div class="partner_logo sis">
+							<a href="http://www.startitsmart.com//"><img  width='129' height='60' src='assets/sis.png' alt="SIS logo" /></a>
 						</div>
 					</div>
 				</div>
