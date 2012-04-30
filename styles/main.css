@@ -122,7 +122,7 @@ body {
 	color: #CCCCCC;
 	text-align: center;
 	line-height: 1.5;
-	padding: 20px;
+	padding: 20px 20px 15px 20px;
 }
 .menu_title {
 	color: #CCCCCC;
@@ -140,7 +140,7 @@ body {
 }
 #callouts {
 	clear: left;
-	height: 120px;
+	height: 135px;
 }
 .menu {
 	border-right: 1px solid #414141;
@@ -169,9 +169,25 @@ body {
 	width: 293px;
 }
 .contact_menu {
-
 	margin: 0 auto;
 	width: 200px;
+}
+.partners{
+	margin-left: 3px;
+}
+.partner_logo{
+	text-align: center;
+	margin-right: 10px;
+	float: left;
+	width: 70px;
+	padding: 3px;
+}
+.partner_logo:hover {
+	background-color: #272727;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	
 }
 .footer_content .mail_button {
 	background: url("../assets/mail_icon.png") no-repeat scroll 15px center #272727;
@@ -192,6 +208,9 @@ body {
 .footer_content a:hover, .footer_content  a:active, .footer_content h4:hover, .footer_content h4:active {
 	color: #FFFFFF;
 	text-decoration: none;
+}
+.copyright {
+	text-align: center;
 }
 b {
 	color: #3e3e3e;
