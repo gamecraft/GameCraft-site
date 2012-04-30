@@ -161,8 +161,8 @@
 						<div class="contact_menu">
 							<a class="mail_button rounded" href="mailto:level2@game-craft.com">Contact us now!</a>
 							<div class="partners">
-								<div class="partner_logo"><a href=""><img  width='50' height='70' src='assets/camplight.png' alt="camplight logo" /></a></div>
-								<div class="partner_logo"><a href=""><img  width='46' height='70' src='assets/initlab.png' alt="initlab logo" /></a></div>
+								<div class="partner_logo"><a href="http://camplight.net/"><img  width='50' height='70' src='assets/camplight.png' alt="camplight logo" /></a></div>
+								<div class="partner_logo"><a href="http://initlab.org/"><img  width='46' height='70' src='assets/initlab.png' alt="initlab logo" /></a></div>
 							</div>
 
 						</div>
