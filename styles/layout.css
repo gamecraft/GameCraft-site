@@ -82,6 +82,7 @@
 	padding-top: 5px;
 }
 #content_wrapper {
+	overflow:hidden;
 	line-height: 1.5;
 	background: #dbdbdb; /* Old browsers */
 	background: -moz-linear-gradient(top,  #dbdbdb 0%, #ffffff 20%, #ffffff 100%); /* FF3.6+ */

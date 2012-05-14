@@ -121,9 +121,6 @@
 							<li>
 								<a href="/blog">Blog</a>
 							</li>
-							<li>
-								<a href="mailto:level2@game-craft.com">Contact us</a>
-							</li>
 						</ul>
 						<a class="mail_button rounded" href="mailto:level2@game-craft.com">Contact us!</a>
 					</div>
