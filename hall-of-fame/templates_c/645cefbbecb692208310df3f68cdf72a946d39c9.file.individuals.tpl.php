@@ -1,19 +1,19 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-06-22 11:39:53
-         compiled from "../templates\clients.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:149504f9036cf5f8424-83743286%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.8, created on 2012-06-25 13:57:07
+         compiled from "../templates\individuals.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:199674fe45922f00682-13959419%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'da77d3eb017a0cda7a99fdb083ce9799713b1452' => 
+    '645cefbbecb692208310df3f68cdf72a946d39c9' => 
     array (
-      0 => '../templates\\clients.tpl',
-      1 => 1334860836,
+      0 => '../templates\\individuals.tpl',
+      1 => 1340632621,
       2 => 'file',
     ),
     'a6545942fca3e1de6962c830d77cf2837c8f99fa' => 
     array (
       0 => '../templates\\layout.tpl',
-      1 => 1340298193,
+      1 => 1340365356,
       2 => 'file',
     ),
     '22ddca696bd55a0853abd0396aea808c37affad0' => 
@@ -23,15 +23,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '149504f9036cf5f8424-83743286',
+  'nocache_hash' => '199674fe45922f00682-13959419',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_4f9036cf76e541_93156923',
+  'unifunc' => 'content_4fe45923145a53_20405612',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_4f9036cf76e541_93156923')) {function content_4f9036cf76e541_93156923($_smarty_tpl) {?><!DOCTYPE HTML>
+<?php if ($_valid && !is_callable('content_4fe45923145a53_20405612')) {function content_4fe45923145a53_20405612($_smarty_tpl) {?><!DOCTYPE HTML>
 <html>
 	<head>
 		<title> GameCraft - Gamification as a Service </title>
@@ -46,9 +46,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<link rel="stylesheet" type="text/css" href="../styles/layout.css" />
 		<link rel="stylesheet" type="text/css" href="../styles/reset.css" />
 		
-<link rel="stylesheet" type="text/css" href="../styles/clients.css" />
+<link rel="stylesheet" type="text/css" href="../styles/hall-of-fame-index.css" />
 
-		<title>GameCraft - Our Clients</title>
+		<title>GameCraft - Hall of Fame</title>
 	</head>
 	<body>
 		<div id='nav_wrapper'>
@@ -67,7 +67,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<a href="http://eepurl.com/gssvf" target="_blank">Subscribe</a>
 					</li>
 					<li class='nav'>
-						<a href="http://www.game-craft.com/hall-of-fame/">Hall of Fame</a>
+						<a href="clients">Clients</a>
+					</li>
+					<li class='nav'>
+						<a href="hall-of-fame">Hall of Fame</a>
 					</li>
 					<li class='nav'>
 						<a href="http://www.game-craft.com/blog/">Blog</a>
@@ -86,32 +89,56 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div class="breadcrumb">
 	<a href="http://www.game-craft.com/">Home</a>
 	&gt;
-	Our Clients
+	<a href="../hall-of-fame">Hall of Fame</a>
+	&gt;
+	Individuals
 </div>
-<h2 class='title rounded' title='OUR CLIENTS'>OUR CLIENTS</h2>
-<p class="clients_info">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur lectus et eros
-	feugiat fringilla sit amet vel lorem. Nullam magna dolor, vestibulum a porttitor non, blandit
-	eget lorem. Nunc commodo nisi non felis auctor pellentesque. Vestibulum lobortis nulla ut ligula
-	adipiscing eu pellentesque ligula facilisis. Ut ligula magna, suscipit ut posuere at, placerat id
-	tellus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed
-	scelerisque placerat fringilla.
-</p>
-<div class="clients_list">
-	<?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
- $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['clientsArray']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value){
-$_smarty_tpl->tpl_vars['v']->_loop = true;
- $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['v']->key;
-?>
-	
-		<a class="client_logo" href="<?php echo $_smarty_tpl->tpl_vars['v']->value->description_link;?>
-.html"><img src="../assets/clients/<?php echo $_smarty_tpl->tpl_vars['v']->value->logo;?>
-.png" width="200" height="150" /></a>
-	
-	<?php } ?>
+
+<div class="hall-of-fame-title">
+	<span class="hall-title" >Hall <span class="italic small">of</span> FAME</span>
 </div>
+
+<div class="list" >
+	<div class="list-image individuals">
+		<span class="individuals-title-alone">Individuals</span>
+	</div>
+	<ul class="names">
+		<li>
+			Ангел Георгиев
+		</li>
+		<li>
+			Веселин Василев
+		</li>
+		<li>
+			Жанет Тодорова
+		</li>
+		<li>
+			Антон Ружеков
+		</li>
+		<li>
+			Максим Крижановски
+		</li>
+		<li>
+			Генади Самоковаров
+		</li>
+		<li>
+			Tsv M
+		</li>
+		<li>
+			Станислав Сираков
+		</li>
+		<li>
+			Калин Блажев
+		</li>
+		<li>
+			Илия Йорданов
+		</li>
+		<li>
+			Миленд Иванова
+		</li>
+	</ul>
+</div>
+
 
 			</div>
 		</div>
@@ -177,15 +204,15 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 		</div>
 		<?php /*  Call merged included template "analytics.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '149504f9036cf5f8424-83743286');
-content_4fe4598a0ecc61_75670165($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '199674fe45922f00682-13959419');
+content_4fe86e3342f275_64481931($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "analytics.tpl" */?> <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
 	</body>
 </html>
-<?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-06-22 11:39:54
+<?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-06-25 13:57:07
          compiled from "../templates\analytics.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_4fe4598a0ecc61_75670165')) {function content_4fe4598a0ecc61_75670165($_smarty_tpl) {?>		<script type="text/javascript">
+<?php if ($_valid && !is_callable('content_4fe86e3342f275_64481931')) {function content_4fe86e3342f275_64481931($_smarty_tpl) {?>		<script type="text/javascript">
 		
 			<script type="text/javascript">
 
