@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-06-22 11:42:16
+<?php /* Smarty version Smarty-3.1.8, created on 2012-05-14 16:37:49
          compiled from "templates\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:212324f47a73d67a5d4-95978130%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f90be83b235fb03cc225b11607032e9ddd415899' => 
     array (
       0 => 'templates\\index.tpl',
-      1 => 1340365329,
+      1 => 1335791209,
       2 => 'file',
     ),
   ),
@@ -38,6 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<script type="text/javascript" src="javascript/index.js"></script>
 	</head>
 	<body>
+		<div id='support'>
+			<a href="http://start.zadrujno.bg/2028/podkrepi-game-craft.aspx?id=2028" target="_blank">Support us on Zadrujno (The Bulgarian Crowd-Funding Platform)</a>
+		</div>
 		<div id='nav_wrapper'>
 			<div class='container'>
 				<div id="email">
@@ -52,12 +55,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					</li>
 					<li class='nav'>
 						<a href="http://eepurl.com/gssvf" target="_blank">Subscribe</a>
-					</li>
-					<li class='nav'>
-						<a href="clients">Clients</a>
-					</li>
-					<li class='nav'>
-						<a href="hall-of-fame">Hall of Fame</a>
 					</li>
 					<li class='nav'>
 						<a href="http://www.game-craft.com/blog/">Blog</a>

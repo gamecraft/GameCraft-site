@@ -1,0 +1,76 @@
+.hall-of-fame-title {
+	background-image: url('../assets/hall_of_fame_ribbon.png');
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 189px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: georgia, garamond, serif;
+	font-size: 400%;
+}
+
+span.hall-title {
+	color: #222222;
+	left: 91px;
+	position: relative;
+	top: 77px;
+}
+
+span.achievements-title {
+	color: #111111;
+	font-family: georgia, garamond, serif;
+	font-size: 180%;
+	position: relative;
+	right: 3px;
+	top: 104px;
+}
+
+span.individuals-title {
+	color: #111111;
+	font-family: georgia, garamond, serif;
+	font-size: 180%;
+	position: relative;
+	right: 5px;
+	top: 105px;
+}
+
+span.italic {
+	font-style: italic;
+}
+
+span.small {
+	font-size: 80%;
+}
+
+.list {
+	float: left;
+	text-align: center;
+	width: 400px;
+	margin: 10px 40px 20px 40px;
+}
+
+.list-image {
+	background-repeat: no-repeat;
+	width: 280px;
+	height: 182px;
+	margin: 0px auto;
+	font-style: italic;
+}
+.individuals {
+	background-image: url('../assets/hall_of_fame_individuals.png');
+}
+
+.achievements {
+	background-image: url('../assets/hall_of_fame_achievements.png');
+	background-position: 50% 50%;
+}
+
+ul.names {
+	list-style: none outside none;
+	font-size: 140%;
+}
+
+ul.names li {
+	padding: 3px;
+}

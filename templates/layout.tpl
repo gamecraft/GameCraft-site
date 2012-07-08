@@ -32,12 +32,6 @@
 						<a href="http://eepurl.com/gssvf" target="_blank">Subscribe</a>
 					</li>
 					<li class='nav'>
-						<a href="http://www.game-craft.com/clients">Clients</a>
-					</li>
-					<li class='nav'>
-						<a href="http://www.game-craft.com/hall-of-fame">Hall of Fame</a>
-					</li>
-					<li class='nav'>
 						<a href="http://www.game-craft.com/blog/">Blog</a>
 					</li>
 				</ul>

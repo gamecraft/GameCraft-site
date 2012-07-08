@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-06-22 11:39:53
+<?php /* Smarty version Smarty-3.1.8, created on 2012-05-14 18:28:44
          compiled from "../templates\clients.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:149504f9036cf5f8424-83743286%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a6545942fca3e1de6962c830d77cf2837c8f99fa' => 
     array (
       0 => '../templates\\layout.tpl',
-      1 => 1340298193,
+      1 => 1337012898,
       2 => 'file',
     ),
     '22ddca696bd55a0853abd0396aea808c37affad0' => 
@@ -65,9 +65,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					</li>
 					<li class='nav'>
 						<a href="http://eepurl.com/gssvf" target="_blank">Subscribe</a>
-					</li>
-					<li class='nav'>
-						<a href="http://www.game-craft.com/hall-of-fame/">Hall of Fame</a>
 					</li>
 					<li class='nav'>
 						<a href="http://www.game-craft.com/blog/">Blog</a>
@@ -178,14 +175,14 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 		<?php /*  Call merged included template "analytics.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '149504f9036cf5f8424-83743286');
-content_4fe4598a0ecc61_75670165($_smarty_tpl);
+content_4fb132bca86816_05506740($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "analytics.tpl" */?> <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
 	</body>
 </html>
-<?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-06-22 11:39:54
+<?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-05-14 18:28:44
          compiled from "../templates\analytics.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_4fe4598a0ecc61_75670165')) {function content_4fe4598a0ecc61_75670165($_smarty_tpl) {?>		<script type="text/javascript">
+<?php if ($_valid && !is_callable('content_4fb132bca86816_05506740')) {function content_4fb132bca86816_05506740($_smarty_tpl) {?>		<script type="text/javascript">
 		
 			<script type="text/javascript">
 

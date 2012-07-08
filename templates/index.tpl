@@ -17,6 +17,9 @@
 		<script type="text/javascript" src="javascript/index.js"></script>
 	</head>
 	<body>
+		<div id='support'>
+			<a href="http://start.zadrujno.bg/2028/podkrepi-game-craft.aspx?id=2028" target="_blank">Support us on Zadrujno (The Bulgarian Crowd-Funding Platform)</a>
+		</div>
 		<div id='nav_wrapper'>
 			<div class='container'>
 				<div id="email">
@@ -31,12 +34,6 @@
 					</li>
 					<li class='nav'>
 						<a href="http://eepurl.com/gssvf" target="_blank">Subscribe</a>
-					</li>
-					<li class='nav'>
-						<a href="clients">Clients</a>
-					</li>
-					<li class='nav'>
-						<a href="hall-of-fame">Hall of Fame</a>
 					</li>
 					<li class='nav'>
 						<a href="http://www.game-craft.com/blog/">Blog</a>

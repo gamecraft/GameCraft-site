@@ -3,9 +3,7 @@
 {block name=title}GameCraft - Hall of Fame{/block}
 
 {block name=head}
-<link rel="stylesheet" type="text/css" href="../styles/hall-of-fame-index.css" />
-<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js'></script>
-<script type="text/javascript" src="../javascript/hall-of-fame.js"></script>
+<link rel="stylesheet" type="text/css" href="../styles/hall-of-fame.css" />
 {/block}
 
 {block name=content}
@@ -14,14 +12,85 @@
 	&gt;
 	Hall of Fame
 </div>
-
+<p class="clients_info">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur lectus et eros
+	feugiat fringilla sit amet vel lorem. Nullam magna dolor, vestibulum a porttitor non, blandit
+	eget lorem. Nunc commodo nisi non felis auctor pellentesque.
+</p>
 <div class="hall-of-fame-title">
 	<span class="hall-title" >Hall <span class="italic small">of</span> FAME</span>
 </div>
 
-<div class="list-choice" >
-		<a href="achievements.php"><img class = 'achievements_button' width='215' height='222' src='../assets/hall-of-fame/achievements_txt_btn.png' alt="Achievements" /></a>
-		<a href="individuals.php"><img class = 'individuals_button' width='215' height='222' src='../assets/hall-of-fame/individuals_txt_btn.png' alt="Individuals" /></a>
+<div class="list" >
+	<div class="list-image individuals">
+		<span class="individuals-title">Individuals</span>
+	</div>
+	<ul class="names">
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+	</ul>
+</div>
+<div class="list" >
+	<div class="list-image achievements">
+		<span class="achievements-title">Achievements</span>
+	</div>
+	<ul class="names">
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+		<li>
+			John Doe
+		</li>
+	</ul>
+</div>
+
+<div class="clients_list">
 
 </div>
 {/block}
