@@ -126,7 +126,6 @@ function hasBorderRadius() {
 		return true;
 	return false;
 };
-
 if(hasBorderRadius()) {
 	$("img.rounded").each(function() {
 		$(this).wrap('<div class="rounded" />');

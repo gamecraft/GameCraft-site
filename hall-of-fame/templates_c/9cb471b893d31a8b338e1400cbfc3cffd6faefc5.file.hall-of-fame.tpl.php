@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-05-14 18:28:19
+<?php /* Smarty version Smarty-3.1.8, created on 2012-06-22 11:42:39
          compiled from "../templates\hall-of-fame.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:154184fb119981d4201-69893328%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9cb471b893d31a8b338e1400cbfc3cffd6faefc5' => 
     array (
       0 => '../templates\\hall-of-fame.tpl',
-      1 => 1337011563,
+      1 => 1340364564,
       2 => 'file',
     ),
     'a6545942fca3e1de6962c830d77cf2837c8f99fa' => 
     array (
       0 => '../templates\\layout.tpl',
-      1 => 1337012898,
+      1 => 1340365356,
       2 => 'file',
     ),
     '22ddca696bd55a0853abd0396aea808c37affad0' => 
@@ -46,7 +46,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<link rel="stylesheet" type="text/css" href="../styles/layout.css" />
 		<link rel="stylesheet" type="text/css" href="../styles/reset.css" />
 		
-<link rel="stylesheet" type="text/css" href="../styles/hall-of-fame.css" />
+<link rel="stylesheet" type="text/css" href="../styles/hall-of-fame-index.css" />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js'></script>
+<script type="text/javascript" src="../javascript/hall-of-fame.js"></script>
 
 		<title>GameCraft - Hall of Fame</title>
 	</head>
@@ -67,6 +69,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<a href="http://eepurl.com/gssvf" target="_blank">Subscribe</a>
 					</li>
 					<li class='nav'>
+						<a href="clients">Clients</a>
+					</li>
+					<li class='nav'>
+						<a href="hall-of-fame">Hall of Fame</a>
+					</li>
+					<li class='nav'>
 						<a href="http://www.game-craft.com/blog/">Blog</a>
 					</li>
 				</ul>
@@ -85,85 +93,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	&gt;
 	Hall of Fame
 </div>
-<p class="clients_info">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur lectus et eros
-	feugiat fringilla sit amet vel lorem. Nullam magna dolor, vestibulum a porttitor non, blandit
-	eget lorem. Nunc commodo nisi non felis auctor pellentesque.
-</p>
+
 <div class="hall-of-fame-title">
 	<span class="hall-title" >Hall <span class="italic small">of</span> FAME</span>
 </div>
 
-<div class="list" >
-	<div class="list-image individuals">
-		<span class="individuals-title">Individuals</span>
-	</div>
-	<ul class="names">
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-	</ul>
-</div>
-<div class="list" >
-	<div class="list-image achievements">
-		<span class="achievements-title">Achievements</span>
-	</div>
-	<ul class="names">
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-	</ul>
-</div>
-
-<div class="clients_list">
+<div class="list-choice" >
+		<a href="achievements.php"><img class = 'achievements_button' width='215' height='222' src='../assets/hall-of-fame/achievements_txt_btn.png' alt="Achievements" /></a>
+		<a href="individuals.php"><img class = 'individuals_button' width='215' height='222' src='../assets/hall-of-fame/individuals_txt_btn.png' alt="Individuals" /></a>
 
 </div>
 
@@ -232,14 +169,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<?php /*  Call merged included template "analytics.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '154184fb119981d4201-69893328');
-content_4fb132a404bd59_82609292($_smarty_tpl);
+content_4fe45a30193bd5_38496190($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "analytics.tpl" */?> <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
 	</body>
 </html>
-<?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-05-14 18:28:20
+<?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-06-22 11:42:40
          compiled from "../templates\analytics.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_4fb132a404bd59_82609292')) {function content_4fb132a404bd59_82609292($_smarty_tpl) {?>		<script type="text/javascript">
+<?php if ($_valid && !is_callable('content_4fe45a30193bd5_38496190')) {function content_4fe45a30193bd5_38496190($_smarty_tpl) {?>		<script type="text/javascript">
 		
 			<script type="text/javascript">
 
