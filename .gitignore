@@ -4,3 +4,6 @@ build/
 deploy.properties
 smarty/
 assets/Thumbs.db
+local/
+public/
+config/
