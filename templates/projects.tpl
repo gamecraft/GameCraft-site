@@ -30,11 +30,12 @@
 		Build quick and easy incentive programs and gamification layers with Game Lab to measure and influence user behavior.
 	</div> </a>
 
-	<a class="project" href="#">
-	<div class="project_image"><img src="../assets/projects/secret.png" width="400" height="120" alt="GameLab" />
+	<a class="project" href="http://www.edukami.com/">
+	<div class="project_image"><img src="../assets/projects/edukami.png" width="400" height="120" alt="edukami" />
 	</div>
 	<div class="project_description">
-		Comming soon...
+		Real-time social publishing platform for creating online gamified courses
+
 	</div> </a>
 
 </div>

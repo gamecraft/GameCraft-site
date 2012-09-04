@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-09-04 13:52:44
+<?php /* Smarty version Smarty-3.1.8, created on 2012-09-04 15:13:45
          compiled from "templates\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:212324f47a73d67a5d4-95978130%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f90be83b235fb03cc225b11607032e9ddd415899' => 
     array (
       0 => 'templates\\index.tpl',
-      1 => 1346766559,
+      1 => 1346771568,
       2 => 'file',
     ),
   ),
@@ -125,7 +125,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						</div>
 					</div>
 					<div id="our_projects">
-						<a href="http://game-lab.co/"><img class = 'our_projects_button' width='300' height='110' src='assets/projects-button.png' alt="Our Projects" /></a>
+						<a href="http://www.game-craft.com/projects"><img class = 'our_projects_button' width='300' height='110' src='assets/projects-button.png' alt="Our Projects" /></a>
 					</div>
 				</div>
 			</div>

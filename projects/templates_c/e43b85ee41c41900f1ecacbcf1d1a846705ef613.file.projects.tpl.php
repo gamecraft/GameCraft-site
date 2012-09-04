@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-04-19 20:37:56
+<?php /* Smarty version Smarty-3.1.8, created on 2012-09-04 15:11:49
          compiled from "../templates\projects.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:70734f90374d6d1c78-84176122%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,19 +7,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e43b85ee41c41900f1ecacbcf1d1a846705ef613' => 
     array (
       0 => '../templates\\projects.tpl',
-      1 => 1334860672,
+      1 => 1346766559,
       2 => 'file',
     ),
     'a6545942fca3e1de6962c830d77cf2837c8f99fa' => 
     array (
       0 => '../templates\\layout.tpl',
-      1 => 1334854266,
+      1 => 1346766559,
       2 => 'file',
     ),
     '22ddca696bd55a0853abd0396aea808c37affad0' => 
     array (
       0 => '../templates\\analytics.tpl',
-      1 => 1333810878,
+      1 => 1346766559,
       2 => 'file',
     ),
   ),
@@ -65,6 +65,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					</li>
 					<li class='nav'>
 						<a href="http://eepurl.com/gssvf" target="_blank">Subscribe</a>
+					</li>
+					<li class='nav'>
+						<a href="http://www.game-craft.com/clients">Clients</a>
+					</li>
+					<li class='nav'>
+						<a href="http://www.game-craft.com/hall-of-fame">Hall of Fame</a>
 					</li>
 					<li class='nav'>
 						<a href="http://www.game-craft.com/blog/">Blog</a>
@@ -177,14 +183,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<?php /*  Call merged included template "analytics.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("analytics.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '70734f90374d6d1c78-84176122');
-content_4f905b84c1b9e5_46043994($_smarty_tpl);
+content_50461a357a90a1_37376552($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "analytics.tpl" */?> <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BigFluffyOwl.json?callback=twitterCallback2&count=2"></script>
 	</body>
 </html>
-<?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-04-19 20:37:56
+<?php }} ?><?php /* Smarty version Smarty-3.1.8, created on 2012-09-04 15:11:49
          compiled from "../templates\analytics.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_4f905b84c1b9e5_46043994')) {function content_4f905b84c1b9e5_46043994($_smarty_tpl) {?>		<script type="text/javascript">
+<?php if ($_valid && !is_callable('content_50461a357a90a1_37376552')) {function content_50461a357a90a1_37376552($_smarty_tpl) {?>		<script type="text/javascript">
 		
 			<script type="text/javascript">
 

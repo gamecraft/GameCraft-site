@@ -104,7 +104,7 @@
 						</div>
 					</div>
 					<div id="our_projects">
-						<a href="http://game-lab.co/"><img class = 'our_projects_button' width='300' height='110' src='assets/projects-button.png' alt="Our Projects" /></a>
+						<a href="http://www.game-craft.com/projects"><img class = 'our_projects_button' width='300' height='110' src='assets/projects-button.png' alt="Our Projects" /></a>
 					</div>
 				</div>
 			</div>
