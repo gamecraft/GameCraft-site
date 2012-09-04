@@ -14,17 +14,12 @@
 </div>
 <h2 class='title rounded' title='OUR CLIENTS'>OUR CLIENTS</h2>
 <p class="clients_info">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur lectus et eros
-	feugiat fringilla sit amet vel lorem. Nullam magna dolor, vestibulum a porttitor non, blandit
-	eget lorem. Nunc commodo nisi non felis auctor pellentesque. Vestibulum lobortis nulla ut ligula
-	adipiscing eu pellentesque ligula facilisis. Ut ligula magna, suscipit ut posuere at, placerat id
-	tellus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed
-	scelerisque placerat fringilla.
+	These are our noteworthy clients. It was interesting and challenging to work with them and we hope we've managed to thrive together. We really enjoy working on cool projects, that's why we pick our clients carefully so we have to be thrilled working on their project.
 </p>
 <div class="clients_list">
 	{foreach from=$clientsArray key=k item=v}
 	
-		<a class="client_logo" href="{$v->description_link}.html"><img src="../assets/clients/{$v->logo}.png" width="200" height="150" /></a>
+		<a class="client_logo" href="{$v->description_link}"><img src="../assets/clients/{$v->logo}.png" width="200" height="150" /></a>
 	
 	{/foreach}
 </div>

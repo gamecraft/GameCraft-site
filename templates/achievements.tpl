@@ -25,31 +25,10 @@
 	</div>
 	<ul class="names">
 		<li>
-			John Doe
+			Empower United Award
 		</li>
 		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
-		</li>
-		<li>
-			John Doe
+			3Challenge Winner
 		</li>
 	</ul>
 </div>
